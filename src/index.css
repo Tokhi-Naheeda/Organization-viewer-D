@@ -1,0 +1,25 @@
+:root {
+  font-family: system-ui, sans-serif;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+main {
+  min-width: 360px;
+  border: 1px solid;
+  transform: rotate3d(1, 1, 1, 45deg);
+}
